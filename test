@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function skipMultiples() {
+var array = [];
+  for (i=1; i <=50 ; i++) {
+      array[i] = i;
+ 
+      if(i % 7 === 0) {
+         array[i]= "'Surround yourself with the dreamers and the doers, the believers and thinkers, but most of all, surround yourself with those who see the greatness within you, even when you don’t see it yourself.' -Edmund Lee";
+                }
+document.write (array[i] + "</br>" + "</br>"); 
+      }
+}
+</script>
+</head>
+
+
+<body>
+
+<h1> Hackbright Application Javascript Function</h1>
+
+<br>
+<br>
+<button type="button" onclick="skipMultiples();">Run SkipMultiples</button>
+
+</body>
+</html> 
